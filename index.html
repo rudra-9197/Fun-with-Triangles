@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Megrim&display=swap" rel="stylesheet">
-</head>
-<body>
-    nav class="navigation container"> 
-   <div class="topdiv"> <nav class="navigation">
-    <h1 class="heading">FUN WITH TRIANGLES</h1>
-    <ul class=" non-bullet-nav-pills">
-        <li class="list-inline" >
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Megrim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  
+    <div class="topdiv">
+      <nav class="navigation">
+        <h1 class="heading">FUN WITH TRIANGLES</h1>
+        <ul class="non-bullet-nav-pills">
+          <li class="list-inline">
             <a class="link link-active" href="\">is triangle?</a>
-       </li>
+          </li>
 
-        <li class="list-inline"><a class="link" href="/">Quiz</a>
-        </li>
+          <li class="list-inline"><a class="link" href="/">Quiz</a></li>
 
-       <li class="list-inline"> 
+          <li class="list-inline">
             <a class="link" href="\">Hypotenuse</a>
-       </li>
-       <li class="list-inline">
-           <a class="link" href="/">Area of Triangle</a>
-       </li>
-
-    </ul>
-</nav></div>
-<p></p>
-<div class="container">
-<div> <input type="number" class="firstAngle">
+          </li>
+          <li class="list-inline">
+            <a class="link" href="/">Area of Triangle</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <p></p>
-<input type="number" class ="secondAangle">
-<p></p>
-<input type="number" class="thirdAngle">
-</div> 
-
-
-</div>
-</body>
+    <div class="container">
+        <label for="first-angle">First-angle</label>
+        <br>
+      <input type="number" id ="first-angle" class="angle" />
+      <p></p>
+      <label for="second-angle">Second-angle</label>
+      <br>
+      <input type="number" id ="second-angle" class="angle" />
+      <p></p>
+      <label for="third-angle">Third-angle</label>
+      <br>
+      <input type="number" id ="third-angle" class="angle"/>
+    </div>
+    <button  id= "check"> check</button>
+    <div id="output" class="output"></div>
+  </body>
+  <script src="/triangle.js"></script>
+</html>

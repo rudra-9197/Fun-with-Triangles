@@ -1,16 +1,22 @@
 body {
+    text-align: center;
 }
+
 .list-inline {
   display: inline;
   font-size: 1.5rem;
   padding: 15px;
 }
 .navigation {
-  background-color: rgb(247, 72, 247);
+  background-color: #4caf50;
   padding: 0.5rem;
+  width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 0.5rem;
 }
 .non-bullet-nav-pills {
-  margin-left: 60%;
+  margin-left: 50%;
   color: white;
 }
 .link {
@@ -27,4 +33,53 @@ body {
 .container{
     text-align: center;
     
+}
+button{
+    position: relative;
+    background-color: #4caf50;
+    border: none;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.angle{
+    width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  
+  border-style: solid;
+  border-color: #5b4caf;
+
+ 
+}
+.output{
+    font-family: "Smooch", cursive;
+  font-size: xx-large;
+  display: block;
+  color: red;
+  padding: 10px;
+}
+label{
+ color: blue;
+  font-size: xx-large;
+  margin-top: auto;
+}
+a{
+    font-size: larger;
+    text-decoration: solid;
+}
+a:hover{
+   
+    cursor: pointer;
+    text-decoration: underline;
 }
