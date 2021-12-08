@@ -6,49 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Megrim&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    
+      
+     
+    
   </head>
   <body>
-    <div class="topdiv">
+    <header class="heading">
+      <h1 class="title" style="font-family: 'Megrim', cursive">FUN WITH TRIANGLES</h1>
       <nav class="navigation">
-        <h1 class="heading">FUN WITH TRIANGLES</h1>
-        <ul class="non-bullet-nav-pills">
-          <li class="list-inline">
-            <a class="link link-active" href="\">is triangle?</a>
-          </li>
+        <a class="link" href="/index.html">is triangle?</a>
 
-          <li class="list-inline">
-            <a class="link" href="/quiz.html">Quiz</a>
-          </li>
+        <a class="link" href="/quiz.html">Quiz</a>
 
-          <li class="list-inline">
-            <a class="link" href="/hypotenuse.html">Hypotenuse</a>
-          </li>
-          <li class="list-inline">
-            <a class="link" href="/area.html">Area of Triangle</a>
-          </li>
-        </ul>
+        <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+
+        <a class="link" href="/area.html">Area of Triangle</a>
       </nav>
-    </div>
-    <p></p>
-    <div class="container">
+    </header>
+  </body>
+  <body class="container">
+    
+    <div class="calc">
+     <h1 class="head">Angles of triangles</h1>
+     <div class="sideInput">
       <label for="first-angle">First-angle</label>
-      <br />
+      <br>
       <input type="number" id="first-angle" class="angle" />
-      <p></p>
+ </div >
+
+     <div class="sideInput">
       <label for="second-angle">Second-angle</label>
       <br />
       <input type="number" id="second-angle" class="angle" />
-      <p></p>
+  </div>
+
+  <div class="sideInput">
       <label for="third-angle">Third-angle</label>
       <br />
       <input type="number" id="third-angle" class="angle" />
-    </div>
-    <button id="check">check</button>
+     </div>
+      <button id="check">Is triangle?</button>
+    
     <div id="output" class="output"></div>
+    <script src="/triangle.js"></script>
   </body>
-  <script src="/triangle.js"></script>
+ 
 </html>

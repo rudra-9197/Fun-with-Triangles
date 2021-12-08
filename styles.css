@@ -1,85 +1,97 @@
-body {
-    text-align: center;
-}
+.heading {
+  padding: 0.5rem;
+  background-color: #4caf50;
+  color: #ffffff;
+  height: 100%;
 
-.list-inline {
-  display: inline;
-  font-size: 1.5rem;
-  padding: 15px;
+  text-align: left;
 }
 .navigation {
-  background-color: #4caf50;
-  padding: 0.5rem;
-  width: 90%;
- margin-left: auto;
- margin-right: auto;
- border-radius: 0.5rem;
-}
-.non-bullet-nav-pills {
-  margin-left: 50%;
-  color: white;
+  text-align: right;
 }
 .link {
-  color: white;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: x-large;
 }
-.heading {
-  margin-top: 0.5em;
-  margin-left: 0.5rem;
-  font-family: "Megrim", cursive;
-  text-align: initial;
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
+.container {
+  text-align: center;
 }
-.container{
-    text-align: center;
-    
+
+.qContainer {
+  text-align: center;
 }
-button{
-    position: relative;
-    background-color: #4caf50;
-    border: none;
-    font-size: 28px;
-    color: #ffffff;
-    padding: 15px;
-    width: 200px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-    margin-top: 2rem;
-    border-radius: 1rem;
+
+button {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
-.angle{
-    width: 20rem;
+.angle {
+  width: 20rem;
   height: 2rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: large;
-  
+
   border-style: solid;
   border-color: #5b4caf;
-
- 
 }
-.output{
-    font-family: "Smooch", cursive;
+.output {
+  text-align: center;
   font-size: xx-large;
   display: block;
   color: red;
   padding: 10px;
 }
-label{
- color: blue;
+
+label {
+  color: #4caf5;
   font-size: xx-large;
   margin-top: auto;
 }
-a{
-    font-size: larger;
-    text-decoration: solid;
+a {
+  font-size: larger;
+  text-decoration: solid;
 }
-a:hover{
-   
-    cursor: pointer;
-    text-decoration: underline;
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.submitButton {
+  height: 2em;
+}
+.question-container {
+  margin-top: 2rem;
+}
+.question {
+  font-size: 2rem;
+}
+.side {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border-color: #4caf50;
+  border-style: solid;
+}
+.sideInput {
+  margin-top: 3rem;
+}
+.title{
+  font-size: 3rem;
+}
+  
+.head{
+  font-size: 3em;
 }

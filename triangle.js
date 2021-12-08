@@ -11,7 +11,7 @@ function checkSumOfAngle() {
     Number(secondAngle.value) +
     Number(thirdAngle.value);
 
-  if (sum == 180) {
+  if (sum ==180) {
     ouput.innerText = "The angles will form a Triangle";
   } else {
     ouput.innerText = "ooops!...The Angles will not form a Triangle";

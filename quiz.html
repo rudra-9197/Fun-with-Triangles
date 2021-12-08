@@ -4,39 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
+
     <title>Document</title>
   </head>
-  <body>
-    <h1>Quiz On Triangles</h1>
-    <form action="" class="quiz-form">
-      <h2>For each correct answer you will get 1 point</h2>
-      <h2>
-        What is the third angle for the triangle where angle1 = 45° and angle2 =
-        45°?
-      </h2>
-      <label for=""
-        ><input type="radio" name="question1" value="45°" />45°</label
-      >
-      <label for=""
-        ><input type="radio" name="question1" value="50°" />50°</label
-      >
-      <label for=""
-        ><input type="radio" name="question1" value="90°" />90°</label
-      >
-      <h2>What is the area of a triangle with base 10 cm and height 25 cm?</h2>
-      <label for=""
-        ><input type="radio" name="question2" value="35 sq.m" />35 sq.m</label
-      >
-      <label for=""
-        ><input type="radio" name="question2" value="62.5 sq.m" />62.5
-        sq.m</label
-      >
-      <label for=""
-        ><input type="radio" name="question2" value="250 sq.m" />250 sq.m
-      </label>
+  <body> 
+    <header class="heading">
+      <h1 style="font-family: 'Megrim', cursive";">FUN WITH TRIANGLES</h1>
+      <nav class="navigation">
+        <a class="link" href="\">is triangle?</a>
+
+        <a class="link" href="/quiz.html">Quiz</a>
+
+        <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+
+        <a class="link" href="/area.html">Area of Triangle</a>
+      </nav>
+    </header>
+  
+    
+      <div class="qContainer">
+    <h1 class="head">Quiz On Triangles</h1>
+    <form action="" class="quiz-form" >
+      <h2 class=>For each correct answer you will get 1 point</h2>
+      
+      <div class="question-container"> <p class="question"> What is the third angle for the triangle where angle1 = 45° and angle2 =
+        45°?</p>
+      
+      
+      <label for=""><input type="radio" name="question1" value="45°" />45°</label >
+      <label for=""><input type="radio" name="question1" value="50°" />50°</label >
+      <label for=""><input type="radio" name="question1" value="90°" />90°</label></div>
+
+<div class="question-container">
+     <p class="question"> What is the area of a triangle with base 10 cm and height 25 cm?</p>
+      <label for=""><input type="radio" name="question2" value="35 sq.m" />35 sq.m</label>
+      <label for=""><input type="radio" name="question2" value="62.5 sq.m" />62.5 sq.m</label>
+      <label for="" ><input type="radio" name="question2" value="250 sq.m" />250 sq.m</label>
     </form>
-    <button id="submit-ans-button">Submit Answers</button>
-    <div id="output"></div>
+    
+ </div>
+     <button id="submit-ans-button" class="submitButton">Submit</button>
+    <div id="quizOutput" class="output"></div>
     <script src="/quiz.js"></script>
   </body>
 </html>

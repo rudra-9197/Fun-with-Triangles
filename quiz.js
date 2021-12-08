@@ -1,6 +1,6 @@
 const quizForm = document.querySelector(".quiz-form");
 const SubmitAnsButton = document.querySelector("#submit-ans-button");
-const output = document.querySelector("#output");
+const output = document.querySelector("#quizOutput");
 
 const correctAns = ["90°", "250 sq.m"];
 

@@ -11,8 +11,9 @@ function calculateArea() {
 
   sp = (a + b + c) / 2;
   area = Math.sqrt(sp * (sp - a) * (sp - b) * (sp - c));
-  if (area == 0 || NaN) {
-    ouput.innerText = "please enter a valid sides";
+  if (area === 0) {
+    output.innerText = "please enter a valid sides";
+   
   } else {
     output.innerText = "The area of Triangle is " + area + " m.";
   }

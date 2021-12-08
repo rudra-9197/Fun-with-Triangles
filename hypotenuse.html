@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
     <title>Hypotenuse</title>
 </head>
-<body>
-    <h1>Calculate Hypotenuse of Triangle</h1>
+<bodys>
 
-    <div> 
-        <label for="first-side">Enter base Value (a) = </label>
+    <header class="heading">
+        <h1 style="font-family: 'Megrim', cursive" >FUN WITH TRIANGLES</h1>
+        <nav class="navigation">
+          <a class="link" href="\">is triangle?</a>
+  
+          <a class="link" href="/quiz.html">Quiz</a>
+  
+          <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+  
+          <a class="link" href="/area.html">Area of Triangle</a>
+        </nav>
+      </header>
+    
+      <div class="container" >  <h1 class="head">Calculate Hypotenuse of Triangle</h1>
+
+    
+        <div class="sideInput">
+      <label for="first-side">Enter base Value (a) = </label>
         <br>
-      <input type="number" id ="first-side" class="side" />
-      <p></p>
+      <input type="number" id ="first-side" class="side" /></div>
+      
+      <div class="sideInput">
       <label for="second-side">Enter height Value (b) =</label>
       <br>
-      <input type="number" id ="second-side" class="side" />
-      <p></p>
+      <input type="number" id ="second-side" class="side" /></div>
+    
       
-    </div>
-    <button id="checkButton">Calculate hypotenuse</button>
+    
+    <button id="checkButton">Calculate Hypotenuse</button>
     <h1>Hypotenuse formula</h1>
     <h2>√(base² + height²)</h2>
-    <div id="output"></div>
+    <div id="output" class="output"></div></div>
     <script src="/hypotenuse.js"></script>
     
     <body>
