@@ -2,8 +2,6 @@
   padding: 0.5rem;
   background-color: #4caf50;
   color: #ffffff;
-  height: 100%;
-
   text-align: left;
 }
 .navigation {
@@ -57,7 +55,7 @@ button {
 }
 
 label {
-  color: #4caf5;
+  color: #4caf50;
   font-size: xx-large;
   margin-top: auto;
 }
